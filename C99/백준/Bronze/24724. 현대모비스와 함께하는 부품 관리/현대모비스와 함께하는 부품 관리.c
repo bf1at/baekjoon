@@ -1,28 +1,22 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
 
-    int T, N;
+    int t,n,u,v;
 
-    int A, B;
+    scanf("%d",&t);
 
-    int u, v;
+    for(int i=0;i<t;i++){
 
-    if (scanf("%d", &T) != 1) return 0;
+        scanf("%d",&n);
+        
+        scanf("%d %d",&u,&v);
 
-    for (int i = 1; i <= T; i++) {
+        for(int j=0;j<n;j++)
 
-        scanf("%d", &N);
+            scanf("%d %d",&u,&v);
 
-        scanf("%d %d", &A, &B);
-
-        for (int j = 0; j < N; j++) {
-
-            scanf("%d %d", &u, &v);
-
-        }
-
-        printf("Material Management %d\n", i);
+        printf("Material Management %d\n",i+1);
 
         printf("Classification ---- End!\n");
 
@@ -31,4 +25,3 @@ int main(void) {
     return 0;
 
 }
-
