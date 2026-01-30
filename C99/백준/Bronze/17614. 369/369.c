@@ -11,7 +11,7 @@ int main() {
 	for (int i = 1; i <= n; i++) {
 		sprintf(s, "%d", i);
 		for (int j = 0; j < strlen(s); j++) {
-			if (s[j] == '3' || s[j] == '6' || s[j] == '7')
+			if (s[j] == '3' || s[j] == '6' || s[j] == '9')
 				sum++;
 		}
 	}
